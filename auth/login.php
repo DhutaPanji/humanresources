@@ -5,11 +5,11 @@
     <!-- Logo -->
     <div class="app-brand justify-content-center">
       <a href="index.html" class="app-brand-link gap-2">
-        <span class="app-brand-text demo text-uppercase fw-bolder">IdeKreatif</span>
+        <span class="app-brand-text demo text-uppercase fw-bolder">HUMAN RESOURCES</span>
       </a>
     </div>
     <!-- /Logo -->
-    <h4 class="mb-2">Selamat datang di IdeKreatif! 👋</h4>
+    <h4 class="mb-2">Welcome To Human Resources 💫</h4>
     <form class="mb-3" action="login_auth.php" method="POST">
       <div class="mb-3">
         <label class="form-label">Username</label>
@@ -22,7 +22,7 @@
         </div>
         <div class="input-group input-group-merge">
           <input type="password" class="form-control" name="password"
-            placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+            placeholder="Enter Your Password"
             aria-describedby="password" />
           <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
         </div>

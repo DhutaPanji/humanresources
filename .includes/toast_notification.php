@@ -1,4 +1,9 @@
 <!-- Bootstrap Toast -->
+<?php
+// Hindari error jika $notification belum didefinisikan
+$notification = $notification ?? null;
+?>
+
 <?php if ($notification): ?>
   <div id="notifikasi" class="bs-toast toast fade bg-<?= $notification['type'] ?> position-absolute m-3 end-0" role="alert" data-bs-autohide="true">
     <div class="toast-header">

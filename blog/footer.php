@@ -7,7 +7,7 @@
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
             <img src="assets/img/logo.png" alt="">
-            <span>IdeKreatif</span>
+            <span>Human Resources</span>
           </a>
           <p>Aplikasi blog berbasis PHP native yang dirancang untuk memudahkan pengguna dalam membuat dan mengelola konten blog.</p>
           <div class="social-links mt-3">
@@ -30,8 +30,8 @@
       <script>
         document.write(new Date().getFullYear());
         </script>
-        <a href="#" target="_blank" class="footer-link fw-bolder">SMKN 4 Tanjungpinang</a>.
-        All rights reserved.
+        <a href="#" target="_blank" class="footer-link fw-bolder">HUMAN RESOURCES</a>.
+        STARBUDS 💫.
     </div>
   </div>
 </footer><!-- End Footer -->
