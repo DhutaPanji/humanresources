@@ -1,3 +1,4 @@
+
 <?php
 include '.includes/header.php';
 include '.includes/toast_notification.php';
@@ -64,7 +65,7 @@ include './config.php';
                                     <div class="modal-body">
                                         <form action="proses_departemen.php" method="POST">
                                             <p>Tindakan ini tidak bisa dibatalkan.</p>
-                                            <input type="hidden" name="id_departemen" value="<?= $departemen['departemen_id']; ?>">
+                                            <input type="hidden" name="departemen_id" value="<?= $departemen['departemen_id']; ?>">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Batal</button>
