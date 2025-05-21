@@ -31,6 +31,9 @@
           <a href="departemen.php" class="menu-link">
             <div data-i18n="Input groups">Data Departemen</div>
           </a>
+          <li class="menu-item">
+          <a href="departemen.php" class="menu-link">
+            <div data-i18n="Input groups">Absensi</div>
         </li>
       </ul>
     </li>
