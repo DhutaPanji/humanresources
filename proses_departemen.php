@@ -1,13 +1,11 @@
 <?php
 include 'config.php';
 
-// Fungsi helper untuk redirect dan exit
 function redirect($url) {
     header("Location: $url");
     exit();
 }
 
-// Tambah Departemen
 if (isset($_POST['simpan'])) {
     if (!empty($_POST['nama_departemen'])) {
         $nama = mysqli_real_escape_string($conn, $_POST['nama_departemen']);
@@ -19,7 +17,6 @@ if (isset($_POST['simpan'])) {
     redirect("departemen.php");
 }
 
-// Update Departemen
 if (isset($_POST['update'])) {
     if (isset($_POST['departemen_id']) && !empty($_POST['nama_departemen'])) {
         $id = (int) $_POST['departemen_id'];
@@ -32,7 +29,6 @@ if (isset($_POST['update'])) {
     redirect("departemen.php");
 }
 
-// Hapus Departemen
 if (isset($_POST['delete'])) {
     if (isset($_POST['departemen_id'])) {
         $id = (int) $_POST['departemen_id'];
