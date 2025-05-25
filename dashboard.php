@@ -25,7 +25,7 @@ $jumlahDepartemen = mysqli_fetch_assoc($jumlahDepartemenQuery)['total_departemen
 $tanggalHariIni = date('Y-m-d');
 
 // Gunakan DATE() untuk memastikan cocok walau field mengandung waktu
-$jumlahAbsensiQuery = mysqli_query($conn, " SELECT COUNT(*) as total_absen FROM absensi WHERE DATE(tanggal) = CURDATE() AND LOWER(TRIM(keterangan))='hadir'");
+$jumlahAbsensiQuery = mysqli_query($conn, "SELECT COUNT(*) as total_absen FROM absensi WHERE DATE(tanggal) = CURDATE() AND keterangan = 'hadir'");
 
 // Cek jika query gagal
 if (!$jumlahAbsensiQuery) {
